@@ -1,0 +1,23 @@
+.home_page{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home_advertisement_space{
+    width: 85%;
+    margin: 2rem auto auto auto;
+    height: 70vh;
+    background-color: lightblue;
+}
+.home_icons{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+    gap: 3rem;
+}
+.home_icon{
+    font-size: 5rem;
+}
+
