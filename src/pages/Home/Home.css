@@ -47,6 +47,21 @@
     gap: 3rem;
 }
 .home_icon{
-    font-size: 8rem;
+    font-size: 8rem !important;
 }
 
+@media screen and  (max-width:900px){
+    .home_icon{
+        font-size: 4rem !important;
+    }
+    .home_title{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .home_content{
+        font-size: 1rem;
+    }
+    .home_button{
+        width: fit-content;
+    }
+}

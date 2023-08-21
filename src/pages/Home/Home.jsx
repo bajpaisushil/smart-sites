@@ -23,9 +23,9 @@ function Home() {
           </div>
         </div>
         <div className='home_icons'>
-            <InstagramIcon className='home_icon' style={{color: '#E1306C', fontSize: '8rem'}} />
-            <YouTubeIcon className='home_icon' style={{color: 'red', fontSize: '8rem'}} />
-            <FacebookIcon className='home_icon' style={{color: 'blue', fontSize: '8rem'}} />
+            <InstagramIcon className='home_icon' style={{color: '#E1306C',}} />
+            <YouTubeIcon className='home_icon' style={{color: 'red', }} />
+            <FacebookIcon className='home_icon' style={{color: 'blue', }} />
         </div>
     </div>
   )
