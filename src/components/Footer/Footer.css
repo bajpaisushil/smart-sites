@@ -1,0 +1,95 @@
+.footer_component{
+    height: 100vh;
+    background-color: #000000;
+    color: white;
+    padding: 2rem;
+}
+.footer_comp_1, .footer_comp_2, .footer_comp_3{
+    display: flex;
+    flex-direction: row;
+    margin: 3rem auto auto auto;
+}
+
+.footer_comp_1_item{
+    margin: auto auto auto 2rem;
+}
+.footer_comp_1 .name{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.footer_comp_1_icons{
+    margin: auto auto auto 0;
+}
+
+.footer_comp_2_item{
+    margin: auto auto auto 0;
+    width: 14rem;
+    border-right: solid 1px lightgray;
+    padding-right: 1rem;
+}
+/* .footer_comp_2_item {
+    display: flex;
+    align-items: center;
+    margin: auto auto auto 0;
+    max-width: 14rem;
+    padding-right: 10px; 
+    position: relative; 
+  } */
+  
+  .footer_comp_2_item::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 90%;
+    width: 1px;
+    background-color: lightgray; /* Color of the border-right */
+  }
+.comp_2_item_title{
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: auto auto 0.5rem auto;
+}
+.comp_2_list_container{
+    text-align: left;
+}
+.comp_2_list_container li{
+    list-style: none;
+    font-size: 0.9rem;
+    text-align: left;
+    margin: 1rem auto auto 0;
+}
+.newsletter_content{
+    font-size: 0.9rem;
+}
+.newsletter_input{
+    /* padding: 1rem; */
+    margin: auto auto 1rem auto;
+    width: 90%;
+    border-radius: 5px;
+    padding: 5px;
+}
+.newsletter_button{
+    border: none;
+    padding: 5px;
+    width: 90%;
+    border-radius: 0.5rem;
+    background-color: aquamarine;
+}
+.footer_comp_3{
+    display: flex;
+    justify-content: space-between;
+    border-top: solid .1px lightgray;
+    padding: 1rem;
+    margin: 5rem auto 0 auto;
+}
+.comp_3_pat{
+    display: flex;
+}
+.comp_3_pat p{
+    font-size: 0.9rem;
+    border-right: solid 1px lightgray;
+    padding: 0.5rem 1rem; /* Adjust the padding values */
+  margin: 0; /* Remove any default margins */
+  line-height: .7;
+}
