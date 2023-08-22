@@ -83,7 +83,6 @@ function Login() {
         <div className="form-group login-signup-link">
           Don't have an account? <a href="/signup">Sign Up</a>
         </div>
-        <Link to="/auth/password/forgot" className="forgot-password-button">Forgot Password</Link>
       </form>
       </div>
     </div>
