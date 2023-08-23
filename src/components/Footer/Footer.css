@@ -20,6 +20,10 @@
 .footer_comp_1_icons{
     margin: auto auto auto 0;
 }
+.moburst_icon{
+    width: fit-content;
+    margin: auto;
+}
 
 .footer_comp_2_item{
     margin: auto auto auto 0;
@@ -48,6 +52,7 @@
 .comp_2_item_title{
     font-size: 1.1rem;
     font-weight: 700;
+    width: fit-content;
     margin: auto auto 0.5rem auto;
 }
 .comp_2_list_container{
@@ -111,15 +116,21 @@
     .footer_comp_2_item{
         width: fit-content;
         margin: auto;
+        text-align: center;
+        border-bottom: solid 1px gray;
+        padding: 1rem;
+        border-right: none;
     }
-    .footer_comp_3_item{
+    .footer_comp_3{
         width: fit-content;
         margin: auto;
         padding: auto;
+        border: none;
     }
     .footer_comp_1_icons{
         width: fit-content;
         padding: auto;
-        margin: auto;
+        margin: 2rem auto auto auto;
     }
 }
+
